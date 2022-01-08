@@ -1,6 +1,6 @@
-# Minimal Glassmorphism Login Page
+# Minimal Glassmorphism Register Page
 
-A beautiful and responsive Glassmorphism Login Page, Built in only HTML and Css, Very Minimal and Lightweight Login Page. Easy to use for beignners.
+A beautiful and responsive Glassmorphism Register Page, Built in only HTML and Css, Very Minimal and Lightweight Login Page. Easy to use for beignners.
 
 
 ## Features
@@ -14,7 +14,7 @@ A beautiful and responsive Glassmorphism Login Page, Built in only HTML and Css,
 
 ## Demo
 
-https://warisreshi.github.io/glassmorphism_loginpage/
+https://warisreshi.github.io/glassmorphism_registerpage/
 
 
 ## Screenshots
