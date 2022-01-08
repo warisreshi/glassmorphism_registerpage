@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
+/* Body Styling */
+body {
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Form Styling */
+#registerform {
+  width: 29rem;
+  height: 45rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 8px 32px 0 rgba(8, 9, 24, 0.37);
+  border-radius: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'Inter', sans-serif;
+}
+h1{
+  font-size: 50px;
+  margin-left: 10%
+}
+
+/* From Styling */
+label {
+  font-size: 20px;
+  margin-left: 10%;
+  opacity: 0.8;
+}
+/* Input Box Styling (Username, Password) */
+input {
+  width: 80%;
+  margin: 5% auto;
+  margin-bottom: 8%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.6);
+  opacity: .8;
+  font-family: inherit;
+  color: inherit;
+}
+/* Login Button Styling */
+#register{
+  width: 50%;
+  margin: 3% auto;
+  font-size: 15px;
+  opacity: .7;
+  color: inherit;
+  background: rgba(41, 41, 41, 0.1);
+  border:none;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font: inherit;
+}
+#register:hover{
+  cursor:pointer;
+  background: rgba(255, 255, 255, 0.2);
+  transition: ease .5s;
+}
+
+/* Bottom Links Styling */
+.bottomlinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 11px;
+}
+#have_account{
+  color: white;
+  text-decoration: none;
+  opacity: .4;
+  font-family: 'Inter', sans-serif;
+}
+#have_account:hover, #forgot_password:hover{
+  opacity: .8;
+  transition: ease-in 0.1;
+}
