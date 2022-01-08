@@ -2,6 +2,7 @@
 
 A beautiful and responsive Glassmorphism Register Page, Built in only HTML and Css, Very Minimal and Lightweight Login Page. Easy to use for beignners.
 
+This is a fork of the Login Page.
 
 ## Features
 
